@@ -1,0 +1,10 @@
+sudo: false
+
+language: go
+
+matrix:
+  include:
+    - go: 1.6
+
+script:
+  - /bin/true
